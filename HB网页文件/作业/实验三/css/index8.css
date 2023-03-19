@@ -1,0 +1,31 @@
+p {
+	text-indent: 20px;
+}
+.p1 {
+	font-family: 宋体;
+	font-size: 14px;
+	height: 18px;
+	text-decoration:underline;
+	color: hotpink;
+	text-align: center;
+	font-weight: bolder;
+}
+.p2 {
+	text-align: center;
+	color:red;
+	text-shadow: 10px;
+}
+.p3 {
+	text-indent: 20px;
+	color: blue;
+}
+.p4 {
+	text-align: ;
+	font-weight: bolder;
+	font-style: oblique;
+	color: green;
+}
+.p5 {
+	text-align: left;
+	color: hotpink;
+}

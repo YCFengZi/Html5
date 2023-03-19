@@ -1,0 +1,24 @@
+.k1 h1{
+	color: #666666;
+}
+.k1 h2 {
+	text-align: left;
+}
+table {
+	margin: 0 auto;
+}
+li {
+	float: left;
+	list-style-type: none;
+	display: inline;
+}
+.p2 {
+	color: #666666;
+	text-decoration: none;
+}
+.p3 {
+	color: #551a8b;
+}
+.p4 {
+	color: #0000ee;
+}

@@ -1,0 +1,29 @@
+.div1,.div2,.div3 {
+	height: 50px;
+	width: 50px;
+	background-color: pink;
+	margin-bottom: 2px;
+	float: left;
+}
+.div1 {
+	float:left;
+}
+.div2 {
+	float:left;
+}
+.div3 {
+	float:right;
+}
+.sp1,.sp2,.sp3 {
+	height: 50px;
+	width: 50px;
+	font-size: 20px;
+	background-color: skyblue;
+}
+a {
+	height: 40px;
+	width: 75px;
+	display: inline-block;
+	text-decoration: none;
+	background-color: pink;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" charset="UTF-8">
+		<title>银行客户信息表</title>
+	</head>
+	<style>
+		
+	</style>
+	<body>
+		<table border="1" cellspacing='0'>
+			<thead>
+				<tr>
+					<th><input type='checkbox' id='j_kALL' />全选</th>
+					<td>商户编号</td>
+					<td>商户名称</td>
+					<td>开户银行</td>
+					<td>银行账号</td>
+					<td>绑定终端号</td>
+					<td>相关操作</td>
+				</tr>
+			</thead>
+			<tbody id='j_k'>
+				<tr>
+					<td><input type='checkbox' /></td>
+					<td>000000001</td>
+					<td>蓝色天空</td>
+					<td>交通银行上海陆家嘴</td>
+					<td>5219********0120</td>
+					<td>0000000012000000</td>
+					<td><button type='submit' value='submit' style='background-color: aqua;border-color: aqua;'>提交</button><button type='reset' value='reset' style='background-color: aqua;border-color: aqua;'>删除</button></td>
+				</tr>
+				<tr>
+					<td><input type='checkbox' /></td>
+					<td>000000001</td>
+					<td>蓝色天空</td>
+					<td>交通银行上海陆家嘴</td>
+					<td>5219********0120</td>
+					<td>0000000012000000</td>
+					<td><button type='submit' value='submit' style='background-color: aqua;border-color: aqua;'>提交</button><button type='reset' value='reset' style='background-color: aqua;border-color: aqua;'>删除</button></td>
+				</tr>
+				<tr>
+					<td><input type='checkbox' /></td>
+					<td>000000001</td>
+					<td>蓝色天空</td>
+					<td>交通银行上海陆家嘴</td>
+					<td>5219********0120</td>
+					<td>0000000012000000</td>
+					<td><button type='submit' value='submit' style='background-color: aqua;border-color: aqua;'>提交</button><button type='reset' value='reset' style='background-color: aqua;border-color: aqua;'>删除</button></td>
+				</tr>
+				<tr>
+					<td><input type='checkbox' /></td>
+					<td>000000001</td>
+					<td>蓝色天空</td>
+					<td>交通银行上海陆家嘴</td>
+					<td>5219********0120</td>
+					<td>0000000012000000</td>
+					<td><button type='submit' value='submit' style='background-color: aqua;border-color: aqua;'>提交</button><button type='reset' value='reset' style='background-color: aqua;border-color: aqua;'>删除</button></td>
+				</tr>
+				<tr>
+					<td><input type='checkbox' /></td>
+					<td>000000001</td>
+					<td>蓝色天空</td>
+					<td>交通银行上海陆家嘴</td>
+					<td>5219********0120</td>
+					<td>0000000012000000</td>
+					<td><button type='submit' value='submit' style='background-color: aqua;border-color: aqua;'>提交</button><button type='reset' value='reset' style='background-color: aqua;border-color: aqua;'>删除</button></td>
+				</tr>
+				<tr>
+					<td><input type='checkbox' /></td>
+					<td>000000001</td>
+					<td>蓝色天空</td>
+					<td>交通银行上海陆家嘴</td>
+					<td>5219********0120</td>
+					<td>0000000012000000</td>
+					<td><button type='submit' value='submit' style='background-color: aqua;border-color: aqua;'>提交</button><button type='reset' value='reset' style='background-color: aqua;border-color: aqua;'>删除</button></td>
+				</tr>
+				<tr>
+					<td><input type='checkbox' /></td>
+					<td>000000001</td>
+					<td>蓝色天空</td>
+					<td>交通银行上海陆家嘴</td>
+					<td>5219********0120</td>
+					<td>0000000012000000</td>
+					<td><button type='submit' value='submit' style='background-color: aqua;border-color: aqua;'>提交</button><button type='reset' value='reset' style='background-color: aqua;border-color: aqua;'>删除</button></td>
+				</tr>
+				<tr>
+					<td><input type='checkbox' /></td>
+					<td>000000001</td>
+					<td>蓝色天空</td>
+					<td>交通银行上海陆家嘴</td>
+					<td>5219********0120</td>
+					<td>0000000012000000</td>
+					<td><button type='submit' value='submit' style='background-color: aqua;border-color: aqua;'>提交</button><button type='reset' value='reset' style='background-color: aqua;border-color: aqua;'>删除</button></td>
+				</tr>
+				<tr>
+					<td><input type='checkbox' /></td>
+					<td>000000001</td>
+					<td>蓝色天空</td>
+					<td>交通银行上海陆家嘴</td>
+					<td>5219********0120</td>
+					<td>0000000012000000</td>
+					<td><button type='submit' value='submit' style='background-color: aqua;border-color: aqua;'>提交</button><button type='reset' value='reset' style='background-color: aqua;border-color: aqua;'>删除</button></td>
+				</tr>
+				<tr>
+					<td><input type='checkbox' /></td>
+					<td>000000001</td>
+					<td>蓝色天空</td>
+					<td>交通银行上海陆家嘴</td>
+					<td>5219********0120</td>
+					<td>0000000012000000</td>
+					<td><button type='submit' value='submit' style='background-color: aqua;border-color: aqua;'>提交</button><button type='reset' value='reset' style='background-color: aqua;border-color: aqua;'>删除</button></td>
+				</tr>
+			</tbody>
+		</table>
+		<script>
+			var j_kALL = document.getElementById('j_kALL');
+			var j_k = document.getElementById('j_k').querySelectorAll('input');
+			var flag= 0;
+			j_kALL.onclick = function()
+			{
+				for (var i = 0;i < j_k.length;i++)
+				{
+					j_k[i].checked = this.checked;
+				}
+			}
+			for (i = 0;i < j_k.length;i++)
+			{
+				j_k[i].onclick = function()
+				{
+					var flag = true;
+					for (i = 0;i < j_k.length;i++)
+					{
+						if (!j_k[i].checked)
+						{
+							flag = false;
+						}
+						j_kALL.checked = flag;
+					}
+				}
+			}
+		</script>	 
+
+	</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+	font-family: Microsoft YaHei;
+}
+h1 {
+	text-align: center;
+	letter-spacing: 8px;
+}
+.p1 {
+	color: #266dba;
+	letter-spacing: 8px;
+}
+.p2 {
+	color: #266dba;
+}
+.p3 {
+	color: crimson;
+}
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+a:visited {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: blue;
+	text-decoration: none;
+}
+a:active {
+	color: blue;
+	text-decoration: none;
+}

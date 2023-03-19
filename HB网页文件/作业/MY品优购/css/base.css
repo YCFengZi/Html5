@@ -1,0 +1,32 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+	color: #646464;
+}
+.top a:hover {
+	color: #cb0000;
+}
+.menu-right a:hover {
+	color: #cb0000;
+}
+.elapp-top-right a:hover {
+	color: #cb0000;	
+}
+.elapp-menu-A a:hover {
+	color: #cb0000;	
+}
+.moapp-top-right a:hover {
+	color: #cb0000;	
+}
+.moapp-menu-A a:hover {
+	color: #cb0000;	
+}
+.comapp-top-right a:hover {
+	color: #cb0000;	
+}
+.comapp-menu-A a:hover {
+	color: #cb0000;	
+}

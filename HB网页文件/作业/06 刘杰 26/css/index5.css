@@ -1,0 +1,28 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.main {
+	background-color: pink;
+	width: 80%;
+	height: 400px;
+	margin: 0 auto;
+}
+.left {
+	width: 30%;
+	height: 400px;
+	background-color: #0000ff;
+	float: left;
+}
+.center {
+	width: 40%;
+	height: 400px;
+	background-color: pink;
+	float: left;
+}
+.right {
+	width: 30%;
+	height: 400px;
+	background-color: #ADFF2F;
+	float: left;
+}

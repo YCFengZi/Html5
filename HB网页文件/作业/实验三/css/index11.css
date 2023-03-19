@@ -1,0 +1,34 @@
+h1 {
+	color: #007c00;
+	text-align: center;
+	text-shadow: 5px 5px 5px #656B79; 
+}
+hr {
+	border-style: solid;
+}
+#p1 {
+	color: red;
+	font-size: 30px;
+	font-weight: bolder;
+}
+#p2 {
+	text-align: right;
+	font-weight: bolder;
+}
+#p3 {
+	font-size: 20px;
+	color: #ffb84e;
+	text-decoration:underline;
+	font-weight: bolder;
+}
+.p1 {
+	color: #695bfb;
+	font-size: 25px;
+	font-weight: bolder;
+}
+.p2 {
+	font-family: 微软雅黑;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	line-height: 36px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" charset="UTF-8">
+		<title>表单练习</title>
+	</head>
+	<style>
+		form {text-indent:1em;}
+		<>
+	</style>
+	<body>
+		<form action='https://www.163.com' method='get'>
+			信息统计表<br>
+			姓名<input type='text'><br>
+			年龄<input type='text'><br>
+			密码<input type='text'><br>
+			性别<input type='radio' name='sex'>男<input type='radio' name='sex' checked='checked'>女
+			<table border='0'>
+				<tr>
+					<td rowspan="5">爱好:</td>
+					<td><input type='checkbox' checked='checked'>旅游</td>
+				</tr>
+				<tr>
+					<td><input type='checkbox' checked='checked'>登山</td>
+				</tr>
+				<tr>
+					<td><input type='checkbox' checked='checked'>健身</td>
+				</tr>
+				<tr>
+					<td><input type='checkbox' checked='checked'>上网</td>
+				</tr>
+				<tr>
+					<td><input type='checkbox'>游泳</td>
+				</tr>
+			</table>
+			学历:<select name='id'>
+					<option value=''>胎教</option>
+					<option value=''>幼稚园</option>
+					<option value=''>小学</option>
+					<option value=''>初中</option>
+					<option value=''>职高</option>
+					<option value=''>普高</option>
+					<option value=''>专科</option>
+					<option value=''>本科</option>
+					<option value=''>硕士</option>
+					<option value=''>博士</option>
+					<option value='' selected='selected'>科技院院长</option>
+				</select>
+			<table border="0">
+				<tr>
+					<td rowspan="2">自我介绍:</td>
+					<td><textarea rows='3' cols='50'>自我介绍:</textarea></td>
+				</tr>
+				<tr>
+					<td><button type='submit' value='submit'>提交</button><button type='reset' value="reset">删除</button></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
